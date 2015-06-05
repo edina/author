@@ -4,7 +4,7 @@
 
 ```
 npm install
-npm -g install shelljs
+npm -g install jspm shelljs
 node install.js
 cd app
 ../node_modules/beefy/bin/beefy
