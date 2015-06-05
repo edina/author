@@ -3,9 +3,8 @@
 ###Installation instructions
 
 ```
-npm install
-npm -g install jspm shelljs
+npm -g install jspm shelljs beefy watchify
 node install.js
-cd app
-../node_modules/beefy/bin/beefy
+beefy --cwd app
 ```
+ 
