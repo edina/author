@@ -1,0 +1,53 @@
+{
+  "name": "author",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edina/author.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edina/author/issues"
+  },
+  "homepage": "https://github.com/edina/author",
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "shelljs": "^0.5.0"
+  },
+  "apps": {
+    "survey-designer": "git@github.com:edina/survey-designer.git",
+    "geofence-designer": "git@github.com:edina/geofence-designer.git"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.0",
+      "components/jquery": "github:components/jquery@^2.1.4",
+      "components/jqueryui": "github:components/jqueryui@^1.11.4",
+      "css": "github:systemjs/plugin-css@^0.1.12",
+      "handlebars": "github:components/handlebars.js@^3.0.3",
+      "hbs": "github:davis/plugin-hbs@master",
+      "i18next": "npm:i18next@^1.9.0",
+      "jquery": "github:components/jquery@^2.1.4",
+      "jquery-ui": "github:components/jqueryui@^1.11.4",
+      "leaflet": "npm:leaflet@^0.7.3",
+      "leaflet-draw": "npm:leaflet-draw@^0.2.3",
+      "pcapi": "npm:pcapi@^0.0.7",
+      "twbs/bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "underscore": "npm:underscore@^1.8.3",
+      "x-editable": "npm:x-editable@^1.5.1"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
